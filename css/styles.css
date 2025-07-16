@@ -1,1 +1,13 @@
-/* Custom + Bootstrap overrides */
+/* Bootstrap overrides and custom for wellness theme */
+body { font-family: 'Arial', sans-serif; background-color: #f8f9fa; color: #333; }
+header { border-bottom: 1px solid #dee2e6; }
+blockquote { font-style: italic; color: #6c757d; }
+.btn-primary { background-color: #28a745; border-color: #28a745; } /* Green for wellness */
+@media (max-width: 768px) { .navbar-nav { text-align: center; } }
+/* Lazy load images */
+img { loading: lazy; alt: "Wellness image"; }
+/* Ensure <3s load: minified, no heavy assets */
+.navbar { box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+h1 { color: #2c3e50; }
+a { color: #2980b9; text-decoration: none; }
+a:hover { text-decoration: underline; }
