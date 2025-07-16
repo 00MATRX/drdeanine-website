@@ -1,1 +1,10 @@
-/* Add your styles here */
+/* css/styles.css */
+body { font-family: Arial, sans-serif; background: #f8f9fa; }
+.navbar { box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+blockquote { font-style: italic; color: #555; }
+@media (max-width: 768px) {
+    .row > div { margin-bottom: 1rem; }
+}
+/* Soothing wellness colors: greens/blues */
+h1 { color: #2c3e50; }
+a { color: #2980b9; }
